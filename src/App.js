@@ -5,16 +5,16 @@ import Body from './components/Body';
 import Brands from './components/Brands';
 import Read from './components/Read';
 import Final from './components/Final';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
 function App(){
   return(
    <>
-  <Router>
+  {/* <Router>
     <Header ></Header> 
     <Routes>
           <Route path="/product" element={<Body />}></Route>
@@ -24,7 +24,12 @@ function App(){
           <Route path="/footer" element={<Footer />}></Route>
       </Routes>
 
-    </Router>
+    </Router> */}
+    <Header />
+    <Body />
+    <Brands />
+    <Final />
+    <Footer />
    </>
   );
 };

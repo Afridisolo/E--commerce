@@ -27,7 +27,7 @@ function Body(){
             <div className="title">
             <h2>YOUR FAVORITE BRANDS ARE <br/>
                 HAVING A MOMENT</h2>
-                <h4>{fita}</h4>
+                {/* <h4>{fita}</h4> */}
                 <div className="product-section">
                     <div className="product-1" onClick={clickFunction2}>
                         <img src={product1} />

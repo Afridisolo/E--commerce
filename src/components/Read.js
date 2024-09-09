@@ -5,11 +5,11 @@ import "./Style.css";
 
 
 function Read(){
-    // const [varName, setVarName] = useState();
+    const [varName, setVarName] = useState();
 
-    // const clickFunction1 = () => {
-    //     setVarName('The new Value'); 
-    // };
+    const clickFunction1 = () => {
+        setVarName('The new Value'); 
+    };
 
 
 

@@ -1,23 +1,23 @@
 import React from "react";
 import "./Style.css";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+// import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Brands from "./Brands";
 import Body from "./Body";
 import Read from "./Read";
 import Final from "./Final";
 import Footer from "./Footer";
-import Navigation from "./navigation";
+// import Navigation from "./navigation";
 
 function Header(){
     return(
     <div className="header-container">
         <div className="navbar-container">
             <h2>REPEAT</h2>
-        <navbar>
+        {/* <navbar>
                 <Navigation />
                 
             
-        </navbar>
+        </navbar> */}
         <div className="button-demo-1">
            <span className="demo-2">BOOK A DEMO</span>
          </div>
